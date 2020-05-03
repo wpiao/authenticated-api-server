@@ -1,0 +1,28 @@
+{
+  "name": "authenticated-api-server",
+  "version": "1.0.0",
+  "description": "This is an express server with protected routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpiao/authenticated-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpiao/authenticated-api-server/issues"
+  },
+  "homepage": "https://github.com/wpiao/authenticated-api-server#readme",
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11"
+  }
+}
