@@ -8,7 +8,7 @@ dotenv.config();
 
 const options = {
   useNewUrlParser: true
-}
+};
 
 mongoose.connect(process.env.MONGODB_URL, options);
 const db = mongoose.connection;
